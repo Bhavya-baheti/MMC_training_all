@@ -1,0 +1,19 @@
+h1 {
+  font-size: 24px;
+  color: #2e8b57; /* Sea green */
+  margin-bottom: 10px;
+}
+
+div {
+  background-color: #eafaf1;
+  border: 1px solid #c1e1c1;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+p {
+  font-size: 16px;
+  color: #2e4d2e;
+  line-height: 1.5;
+  margin: 0;
+}

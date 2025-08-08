@@ -1,0 +1,19 @@
+h1 {
+  font-size: 24px;
+  color: #8b0000; /* Dark red */
+  margin-bottom: 10px;
+}
+
+div {
+  background-color: #fbeaea;
+  border: 1px solid #f5c2c2;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+p {
+  font-size: 16px;
+  color: #5c1a1a;
+  line-height: 1.5;
+  margin: 0;
+}

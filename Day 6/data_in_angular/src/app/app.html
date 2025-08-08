@@ -1,0 +1,31 @@
+<h1>Welcome to data in angular</h1>
+
+<h2>{{appName}}</h2>
+
+<ol>
+  <li *ngFor="let d of type_of_data">{{ d }}</li>
+</ol>
+
+<div>
+  <h3>Product Details</h3>
+  <table border="2" cellpadding="8" cellspacing="0">
+    <thead>
+      <tr>
+        <th>Product Id</th>
+        <th>Product Name</th>
+        <th>Product Price</th>
+        <th>Product Quantity</th>
+        <th>Product Category</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let p of productDetails">
+        <td>{{ p.pId }}</td>
+        <td>{{ p.pName }}</td>
+        <td>{{ p.pPrice }}</td>
+        <td>{{ p.pQty }}</td>
+        <td>{{ p.pCategory }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

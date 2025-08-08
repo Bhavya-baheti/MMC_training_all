@@ -1,0 +1,17 @@
+<h1>West offices</h1>
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>City</th>
+      <th>Call</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let W of Wlocation">
+      <td>{{ W.city }}</td>
+      <td>{{ W.call }}</td>
+      <td>{{ W.email }}</td>
+    </tr>
+  </tbody>
+</table>

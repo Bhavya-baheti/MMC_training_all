@@ -1,0 +1,17 @@
+<h1>North offices</h1>
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>City</th>
+      <th>Call</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let N of Nlocation">
+      <td>{{ N.city }}</td>
+      <td>{{ N.call }}</td>
+      <td>{{ N.email }}</td>
+    </tr>
+  </tbody>
+</table>

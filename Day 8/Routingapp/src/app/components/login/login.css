@@ -1,0 +1,19 @@
+h1 {
+  font-size: 24px;
+  color: #4b0082; /* Indigo */
+  margin-bottom: 10px;
+}
+
+div {
+  background-color: #f3eaff;
+  border: 1px solid #d1b3ff;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+p {
+  font-size: 16px;
+  color: #2e1a47;
+  line-height: 1.5;
+  margin: 0;
+}

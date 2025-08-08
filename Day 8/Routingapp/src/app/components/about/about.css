@@ -1,0 +1,19 @@
+h1 {
+  font-size: 24px;
+  color: #1e90ff; /* Dodger blue */
+  margin-bottom: 10px;
+}
+
+div {
+  background-color: #e6f2ff;
+  border: 1px solid #b3d9ff;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+p {
+  font-size: 16px;
+  color: #1c3f5e;
+  line-height: 1.5;
+  margin: 0;
+}
