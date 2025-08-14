@@ -1,0 +1,19 @@
+<h2>Add New Employee</h2>
+<form (ngSubmit)="addEmp()" #empForm="ngForm">
+  <label>Emp No:</label>
+  <input type="number" [(ngModel)]="empNo" name="empNo" required /><br />
+
+  <label>Name:</label>
+  <input type="text" [(ngModel)]="empName" name="empName" required /><br />
+
+  <label>Designation:</label>
+  <input type="text" [(ngModel)]="empDesignation" name="empDesignation" required /><br />
+
+  <label>Salary:</label>
+  <input type="number" [(ngModel)]="empSalary" name="empSalary" required /><br />
+
+  <label>Permanent:</label>
+  <input type="checkbox" [(ngModel)]="empIsPermanent" name="empIsPermanent" /><br />
+
+  <button type="submit">Add Employee</button>
+</form>

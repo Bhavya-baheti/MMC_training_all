@@ -1,0 +1,14 @@
+<h1>This is a calculate function</h1>
+<form name="myform" (ngSubmit)="calculate()">
+    <input type="number" name="firstnumber" [(ngModel)]="firstNumber" placeholder="Enter first number">
+    <input type="number" name="secondnumber" [(ngModel)]="secondNumber" placeholder="Enter second number">
+    <button type="submit">Calculate</button>
+
+</form>
+
+<div>
+    <h2>Addition:{{addResult}}</h2>
+    <h2>Subtraction:{{subResult}}</h2>
+    <h2>Multiplication:{{mulResult}}</h2>
+    <h2>Division:{{divResult}}</h2>
+</div>

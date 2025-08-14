@@ -1,0 +1,6 @@
+<h2>Delete Employee</h2>
+<form (ngSubmit)="deleteEmp()" #deleteForm="ngForm">
+  <label>Enter Employee No to Delete:</label>
+  <input type="number" [(ngModel)]="empNoToDelete" name="empNoToDelete" required /><br /><br />
+  <button type="submit">Delete Employee</button>
+</form>
